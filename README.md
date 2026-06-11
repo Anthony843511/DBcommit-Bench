@@ -29,8 +29,7 @@ All datasets, code and evaluation scripts are fully open-sourced.
    - Four standardized evaluation metrics for fair comparison
 
 2. **Multi-stage LLM Agent (DBcommit-Agent)**
-   A dedicated reasoning framework to resolve the SQL-C semantic gap:
-   `Commit Understanding → Code Localization → Context Retrieval → SQL Generation`
+   A dedicated reasoning framework to resolve the SQL-C semantic gap.
    Outperforms random SQL generators and direct LLM prompting on both complex and lightweight DBMSs.
 
 3. **Comprehensive Evaluations**
