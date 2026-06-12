@@ -1,13 +1,5 @@
 
 
-"""
-Precise recall/precision evaluation using match_info precise line numbers + gcov coverage.
-
-Recall  = matched_lines / total_meaningful_added_lines  (ratio of added lines found in source)
-Precision = covered_lines / matched_lines                (ratio of matched lines actually executed)
-Precision_excl_not_found = covered_lines / (matched_lines - not_found_lines)  (precision excluding lines not found by gcov)
-"""
-
 import json
 import os
 import re
