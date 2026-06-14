@@ -17,4 +17,4 @@ To address these challenges:
 - Extensive experiments prove our method outperforms traditional testing tools and vanilla LLM prompting strategies. Fine-tuning on our benchmark also consistently improves LLMs' domain capabilities.
 
 All datasets, code and evaluation scripts will be fully open-sourced.
-The dataset and partial code have been open-sourced, and we are actively organizing the remaining materials.
+The dataset and code have been open-sourced, and we are actively organizing the remaining materials.
