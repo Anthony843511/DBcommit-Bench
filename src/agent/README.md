@@ -3,8 +3,8 @@
 ```
 agent/
 │
-├── critic_agent_run_new.py              # PostgreSQL agent runner
-├── critic_agent_run_new_sqlite.py       # SQLite agent runner
+├── agent_run_pg.py                      # PostgreSQL agent runner
+├── agent_run_sqlite.py                  # SQLite agent runner
 │
 └── src/dbcommitagent/                   # Agent core source
     ├── __init__.py                       # Package entry, version, global config
