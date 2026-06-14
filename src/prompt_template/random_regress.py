@@ -65,11 +65,15 @@ Use EXACTLY this format:
         <description>Briefly explain what this tests.</description>
         <sql>
 -- Setup
-...
+DROP TABLE IF EXISTS test_t1 CASCADE;
+CREATE TABLE test_t1 (id INT);
+INSERT INTO test_t1 VALUES (1);
+
 -- Execution
-...
+SELECT * FROM test_t1 WHERE id = 1;
+
 -- Teardown
-...
+DROP TABLE IF EXISTS test_t1 CASCADE;
         </sql>
     </test_case>
 </test_cases>"""
