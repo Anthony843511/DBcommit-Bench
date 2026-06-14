@@ -1,6 +1,6 @@
 # DBcommit-Bench & DBcommit-Agent
 
-Official implementation & dataset for **DBcommit-Bench: SQL Test Generation for Change-aware Regression Testing of DBMSs**.
+Official implementation & dataset for **DBcommit-Bench: SQL Test Generation for Change-aware Regression Testing of DBMSs**(Under review).
 
 This work targets **change-aware regression testing for Database Management Systems (DBMSs)**. We build the first real-world benchmark for commit-level SQL test generation, and propose a multi-stage LLM reasoning agent to bridge the semantic gap between high-level SQL queries and low-level C kernel code of DBMSs.
 
