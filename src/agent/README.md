@@ -76,3 +76,6 @@ agent/
         ├── log.py                        # Logging
         └── serialize.py                  # Serialization
 ```
+### Acknowledgments                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                      
+We design the agent specifically for the dbcommit-bench task. The agent framework is further improved and implemented based on the original SWE-agent framework. We would like to express our gratitude to the open-source community for their valuable contributions
