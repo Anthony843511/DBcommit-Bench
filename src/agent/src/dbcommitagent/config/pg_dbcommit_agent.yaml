@@ -118,7 +118,7 @@ agent:
     # View test directory
     ls {{db_root_dir}}/src/test/regress/sql/ | grep related_module
 
-  db_root_dir: "/home/yike/postgresql-13.23-copy"
+  db_root_dir: ""
   step_limit: 22
   cost_limit: 3.0
   mode: confirm
