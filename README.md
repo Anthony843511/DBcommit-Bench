@@ -16,5 +16,4 @@ To address these challenges:
 - We propose **DBcommit-Agent**, an LLM-based reasoning framework that decomposes SQL generation into four sequential stages.
 - Extensive experiments prove our method outperforms traditional testing tools and vanilla LLM prompting strategies. Fine-tuning on our benchmark also consistently improves LLMs' domain capabilities.
 
-All datasets, code and evaluation scripts will be fully open-sourced.
-The dataset and code have been open-sourced, and we are actively organizing the remaining materials.
+ Datasets, code and evaluation scripts are fully open-sourced.
