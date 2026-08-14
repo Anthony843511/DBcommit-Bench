@@ -11,8 +11,7 @@ agent:
     ║  Not done until {{task_id}}.sql is written and confirmed by cat║
     ╚══════════════════════════════════════════════════════════════╝
 
-    ## 🏗 Four-Phase Workflow (Ablation: No Self-Validation)
-
+    ## 🏗 Four-Phase Workflow
     At each step, state progress at the beginning of your reply:
     [Progress] Phase X/4 — Completed: Understand/Locate/Retrieve/Write — Target: {{task_id}}.sql
 
