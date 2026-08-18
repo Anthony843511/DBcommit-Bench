@@ -98,4 +98,4 @@ export TIME_BIN=/usr/bin/time            # to fill in: GNU time path (must suppo
 | 2 | Open-source the expected-error classification & analysis (constraint/partition/permission/rule violations vs. syntax/hallucination/timeout/crash) | ⬜ |
 | 3 | "intrinsic SQL difficulty" analysis and  sampled validation | ⬜ |
 | 4 | Analyze retained/removed commits by year, subsystem, diff size, and type | ⬜|
-| 5 | Add quick-start commands| part✅ |
+| 5 | Add quick-start commands| part ✅ |
