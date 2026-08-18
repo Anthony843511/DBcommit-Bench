@@ -17,3 +17,28 @@ To address these challenges:
 - Extensive experiments prove our method outperforms traditional testing tools and vanilla LLM prompting strategies. Fine-tuning on our benchmark also consistently improves LLMs' domain capabilities.
 
  Datasets, code and evaluation scripts are fully open-sourced.
+
+# Benchmark Results (Training Set)
+
+| Method / Setting | DBMS | Change-aware Cov. | EffIdx | Line Cov. |
+|---|---|---|---|---|
+| DeepSeek-V4-Flash, Prompt | PostgreSQL | 42.44% | 2.272 | 33.90% |
+| DeepSeek-V4-Flash, Agent | PostgreSQL | 58.22% | 3.467 | 38.80% |
+| Qwen3-4B, Prompt | PostgreSQL | 18.67% | 1.158 | 25.50% |
+| Qwen3-8B, Prompt | PostgreSQL | 26.67% | 1.582 | 25.80% |
+| DeepSeek-V4-Flash, Prompt | SQLite | 64.29% | 3.706 | 40.60% |
+| DeepSeek-V4-Flash, Agent | SQLite | 79.46% | 4.312 | 47.70% |
+| Qwen3-4B | SQLite | 49.11% | 3.320 | 32.30% |
+| Qwen3-8B | SQLite | 54.46% | 4.416 | 36.80% |
+
+---
+
+## To-do（push to GitHub）
+
+| # | Content | Status |
+|---|---|---|
+| 1 | Execution-time cost check | ⬜ |
+| 2 | Open-source the expected-error classification & analysis (constraint/partition/permission/rule violations vs. syntax/hallucination/timeout/crash) | ⬜ |
+| 3 | "intrinsic SQL difficulty" analysis and  sampled validation | ⬜ |
+| 4 | Analyze retained/removed commits by year, subsystem, diff size, and type | ⬜|
+| 5 | Add quick-start commands| ⬜|
